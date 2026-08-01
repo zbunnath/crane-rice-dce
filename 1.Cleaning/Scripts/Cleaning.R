@@ -93,6 +93,6 @@ Pilot %<>%
 
 #Filter consented respondents — confirm the actual "I agree" code in Qualtrics
 Pilot %<>%
-  filter(Consent == "4")
+  filter(Consent == "1")
 
 write_csv(Pilot, here("1.Cleaning", "Output", "Capstone_clean.csv"))
